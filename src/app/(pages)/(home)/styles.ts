@@ -65,7 +65,7 @@ export const HeroButton = styled.button`
 export const HeroImage = styled.img`
   width: 100%;
   max-width: 500px;
-  height: auto;
+  height: 50vh;
   object-fit: contain;
   margin: 0 auto;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
