@@ -21,6 +21,7 @@ export const HeroContent = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+  
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -64,8 +65,8 @@ export const HeroButton = styled.button`
 
 export const HeroImage = styled.img`
   width: 100%;
-  max-width: 500px;
-  height: 50vh;
+  max-width: 400px;
+  height: 45vh;
   object-fit: contain;
   margin: 0 auto;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
