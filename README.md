@@ -1,33 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# E-commerce com Next.js, Styled Components e TypeScript
 
-## Getting Started
+Este é um projeto de e-commerce desenvolvido com **Next.js**, **TypeScript** e **Styled Components**, integrando-se à [Fake Store API](https://fakestoreapi.com/) para exibir produtos de maneira dinâmica e funcional.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
+- **Catálogo de Produtos**: Exibição de produtos com informações como imagem, título, preço e descrição.
+- **Carrinho de Compras**: Adicione e remova produtos do carrinho para simular uma experiência real de compra.
+- **Detalhes do Produto**: Visualize informações detalhadas sobre cada item ao clicar em um produto.
+- **Responsividade**: Layout otimizado para diferentes dispositivos, incluindo desktop, tablet e mobile.
+
+## Tecnologias Utilizadas
+
+- [Next.js](https://nextjs.org): Framework React para desenvolvimento web moderno e eficiente.
+- [TypeScript](https://www.typescriptlang.org): Superset de JavaScript com tipagem estática para maior segurança e previsibilidade.
+- [Styled Components](https://styled-components.com): Biblioteca para estilização dinâmica e modular.
+- [Fake Store API](https://fakestoreapi.com): API pública para integração de dados simulados de loja virtual.
+
+## Demonstração
+
+Acesse a aplicação ao vivo: [E-commerce com Fake Store API](https://ecommerce-nextjs-fake-store-api.vercel.app)
+
+## Como Executar Localmente
+
+Siga os passos abaixo para rodar o projeto em seu ambiente local:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/ecommerce-nextjs-fake-store.git
+
+
+Acesse o diretório do projeto:
+
+bash
+Copiar
+Editar
+cd ecommerce-nextjs-fake-store
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+Inicie o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra http://localhost:3000 no navegador para visualizar o projeto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Estrutura do Projeto
+pages/: Páginas principais da aplicação, como o catálogo de produtos, detalhes do produto e carrinho.
+components/: Componentes reutilizáveis, como cabeçalhos, rodapés e cards de produtos.
+styles/: Configurações de estilização utilizando Styled Components.
+services/api.ts: Configuração para consumo da Fake Store API.
+Integração com a API
+Os dados dos produtos são consumidos diretamente da Fake Store API, permitindo a exibição de informações reais e atualizadas dinamicamente.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Licença
+Este projeto está licenciado sob os termos da MIT License.
 
 ## Deploy on Vercel
 
